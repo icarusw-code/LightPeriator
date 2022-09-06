@@ -1,4 +1,11 @@
-# LightPeriator
+![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=🎉빛의 전달자팀🎉&fontAlign=50&fontAlignY=40&color=gradient)
+
+# 게임 - 빛의 전달자🎇
+
+## [시연 영상 바로가기](https://www.youtube.com/watch?v=velO1Co5RjI)
+
+
+## 발표 자료
  빛을 잃어버린 어둠의 땅에서 "미러스톤"을 이용해 빛을 전달하는 게임
 ![001](https://user-images.githubusercontent.com/77170611/188637713-6eb29d41-dc25-4f1d-bc14-c697139b51bc.jpg)
 ![002](https://user-images.githubusercontent.com/77170611/188637725-43ab3db3-7aaa-4bc5-b4d2-d4f07b309931.jpg)
