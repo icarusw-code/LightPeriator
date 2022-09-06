@@ -25,8 +25,6 @@ public class BoxMove : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(manager.GetComponent<Push>().isPush);
-
         Ray ray = new Ray(transform.position, transform.forward);
         
         //Raycast ÄÚµå 

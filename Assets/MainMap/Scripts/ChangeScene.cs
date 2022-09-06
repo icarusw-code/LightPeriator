@@ -19,7 +19,7 @@ public class ChangeScene : MonoBehaviour
 
     public void Next()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("StartCine");
     }
     
 }

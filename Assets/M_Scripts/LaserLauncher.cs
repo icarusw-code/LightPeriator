@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(LineRenderer))]
 public class LaserLauncher : MonoBehaviour
@@ -53,8 +54,15 @@ public class LaserLauncher : MonoBehaviour
         {
             if (hit.transform.gameObject.GetComponentInChildren<Light>())
             {
-                Debug.Log(hit.transform.gameObject.GetComponentInChildren<Light>().enabled = true);
+                hit.transform.gameObject.GetComponentInChildren<Light>().enabled = true;
+                
+                if (hit.transform.gameObject.layer == LayerMask.NameToLayer("End"))
+                {
+                    Invoke("scenechange", 1);
+                }
+                
             }
+            
 
             // 충돌 지점
             laserPointList.Add(hit.point);
@@ -81,5 +89,10 @@ public class LaserLauncher : MonoBehaviour
 
         }
 
+    }
+
+    void scenechange()
+    {
+        SceneManager.LoadScene("EndingScene");
     }
 }
