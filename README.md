@@ -6,7 +6,6 @@
 
 
 ## 발표 자료
- 빛을 잃어버린 어둠의 땅에서 "미러스톤"을 이용해 빛을 전달하는 게임
 ![001](https://user-images.githubusercontent.com/77170611/188637713-6eb29d41-dc25-4f1d-bc14-c697139b51bc.jpg)
 ![002](https://user-images.githubusercontent.com/77170611/188637725-43ab3db3-7aaa-4bc5-b4d2-d4f07b309931.jpg)
 ![003](https://user-images.githubusercontent.com/77170611/188637756-659ef83c-3b07-407e-8a15-4deb270bff62.jpg)
